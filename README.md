@@ -32,4 +32,10 @@
 - `sudo apt-get install nginx-y`
 - How to check a tool/software status in linux `sudo systemctl status nginx`
 - How to restart a process in Linux
-- 
+  - Open the command line.
+  - Enter ls /etc/init.d or ls /etc/rc.d/.
+  - Find the name of the service you want to restart
+  - Enter sudo systemctl restart service where service is the service name.
+  - Enter your password.
+
+  
