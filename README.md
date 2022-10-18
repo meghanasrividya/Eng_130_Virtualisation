@@ -40,4 +40,5 @@
 
 
 ### Diagram for Virtualisation using Vagrant
-image.png
+
+![image](https://user-images.githubusercontent.com/97250268/196504907-914e29d7-6bfa-4fd0-8c27-a59a24260a6c.png)
