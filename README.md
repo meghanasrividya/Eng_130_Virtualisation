@@ -38,4 +38,6 @@
   - Enter sudo systemctl restart service where service is the service name.
   - Enter your password.
 
-  
+
+### Diagram for Virtualisation using Vagrant
+image.png
