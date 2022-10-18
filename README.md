@@ -1,7 +1,8 @@
 # virtualisation 
 ## Dev Env
 ### Vagrant 
-
+- To access Virtual Machine ,give the command from terminal `vagrant ssh`
+- To exit virtual machine `exit`
 - check internet connectivity `sudo apt-get update`
 - Run upgrade ` sudo apt-get upgrade -y`
 - Where am I `pwd` give you your current location
@@ -18,11 +19,25 @@
 - change permission`chmod instruction file-name` i.e `chmod 700 test.txt` 
 - Currently running process `top` & `ps aux`
 - To remove any process `kill PID`- `kill 7`
-- how to delete folder/hidden folder `ls-a`
-- print last 3 lines from the test.txt
-- print first 3 lines from the test.txt
-- print last lines from the test.txt
+- How to delete folder/hidden folder `ls-a`
+- print last 3 lines from the test.txt `tail -3 test.txt`
+- print first 3 lines from the test.txt `head -3 test.txt`
+- print last 10 lines from the test.txt `head -10 test.txt`
 - Research how to use `| pipe` & `grep` & `sort`
+
+*Pipe command:*
+
+- The Pipe command is used to transfer the output of two or more commands, and the output of one command will act as input to another command, and this command output will act as input to the subsequent command, and it goes on. We can also consider it as a virtual connection between different commands, programs, or processes. The command line which process is referred to as filters.
+
+*grep command:*
+- Grep is a Linux / Unix command-line tool used to search for a string of characters in a specified file. The text search pattern is called a regular expression. When it finds a match, it prints the line with the result. The grep command is handy when searching through large log files.
+- `grep [string][filename]
+
+*sort command:*
+- SORT command sorts the contents of a text file, line by line.`sort [filename]
+
+
+
 - `ps aux` short list by name
 - How to create/run a process in the background & foreground,
 - kill the process that you created
@@ -61,3 +76,6 @@
 ### What is virtual box?
 - VirtualBox is open-source software for virtualizing the x86 computing architecture. It acts as a hypervisor, creating a VM (virtual machine) where the user can run another OS (operating system).
 - The operating system where VirtualBox runs is called the "host" OS. The operating system running in the VM is called the "guest" OS. VirtualBox supports Windows, Linux, or macOS as its host OS.
+### Why should we all use all of them?
+- Using Vagrant, you can easily create virtual development environments from exiting VM images and have all the VM configs in a configuration file called Vagrantfile. To put it simply, you define everything you need in a VM in the Vagrantfile, and Vagrant will take care of configuring those in the VM.
+- Using VirtualBox and Vagrant, you can simulate the production environment of your app or website.
