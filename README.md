@@ -44,7 +44,7 @@
 ![image](https://user-images.githubusercontent.com/97250268/196504907-914e29d7-6bfa-4fd0-8c27-a59a24260a6c.png)
 
 ### What is virtualisation and its  benefits?
--Virtualization is the process of running a virtual instance of a computer system in a layer separate from the actual hardware. It is often inefficient and costly for organizations to deploy multiple servers to keep pace with their storage and processing needs. Instead, virtualization provides the ability to create multiple simulated environments from a single, physical hardware system. This process is done through software called a hypervisor, which connects directly to your hardware and allows you to split that one system into completely separate, distinct and secure environments called virtual machines. The hypervisor provides the ability to separate the machine's resources — such as CPU, memory, storage and more — from the hardware and distribute them appropriately.
+- Virtualization is the process of running a virtual instance of a computer system in a layer separate from the actual hardware. It is often inefficient and costly for organizations to deploy multiple servers to keep pace with their storage and processing needs. Instead, virtualization provides the ability to create multiple simulated environments from a single, physical hardware system. This process is done through software called a hypervisor, which connects directly to your hardware and allows you to split that one system into completely separate, distinct and secure environments called virtual machines. The hypervisor provides the ability to separate the machine's resources — such as CPU, memory, storage and more — from the hardware and distribute them appropriately.
 
 These virtual machines are self-contained and completely independent from each other. One common use is running applications meant for a different operating system on the virtualized system, so you don't have to switch computers or reboot.
 ** Benefits of virtualisation**:
@@ -58,3 +58,13 @@ These virtual machines are self-contained and completely independent from each o
   - Greater business continuity and disaster recovery response
   - Simplified data center management
   - Faster provisioning of applications and resources
+### What is dev environment
+- The development environment (dev) is the environment in which changes to software are developed, most simply an individual developer's workstation.
+### What is vagrant?
+- Vagrant is an open-source tool that helps us to automate the creation and management of Virtual Machines. In a nutshell, we can specify the configuration of a virtual machine in a simple configuration file, and Vagrant creates the same Virtual machine using just one simple command. It provides command-line interfaces to automate such tasks. 
+
+- Virtual Machine is a machine that does not exist physically but can be used just like a physical computer. Any task that can be done on a physical machine can also be executed in a virtual machine. But Virtual Machine is built on top of a physical system, and multiple virtual machines can be created in a single physical computer. All the virtual machines share the same hardware, but each of them might have a separate operating system. The physical system that hosts all the virtual machines is called the Host Computer. The medium that separates the Host Computer hardware and the virtual environments is something called Hypervisor, or Hyper-V.  
+### What is virtual box?
+- VirtualBox is open-source software for virtualizing the x86 computing architecture. It acts as a hypervisor, creating a VM (virtual machine) where the user can run another OS (operating system).
+
+The operating system where VirtualBox runs is called the "host" OS. The operating system running in the VM is called the "guest" OS. VirtualBox supports Windows, Linux, or macOS as its host OS.
