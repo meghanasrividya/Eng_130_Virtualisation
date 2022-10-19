@@ -1,5 +1,5 @@
 **Reverse Proxy With Nginx**
--  Go to the virtual machine open the file editing `sudo nano /etc/nginx/sites-available/default`
+-  Go to the virtual machine open the file using command `sudo nano /etc/nginx/sites-available/default`
 -  copy the below content to the file
 
 ![image](https://user-images.githubusercontent.com/97250268/196742954-58defc39-21c6-4ebf-b317-c2d89553fbd4.png)
