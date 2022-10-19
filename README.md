@@ -112,15 +112,23 @@
 ![image](https://user-images.githubusercontent.com/97250268/196707815-40c78046-6ef4-4ff2-8cd0-76fb06ee903a.png)
 
 - Go inside the spec-tests/ folder
+
 ![image](https://user-images.githubusercontent.com/97250268/196708211-a3cf19c8-6ebd-4bfb-8750-55748ab19be0.png)
 
 - `gem install bundler`
+
 ![image](https://user-images.githubusercontent.com/97250268/196708539-a2f56ee2-5f31-4814-9ecc-373a6aee5e37.png)
+
 - `bundle`
+
   ![image](https://user-images.githubusercontent.com/97250268/196708876-442291eb-9a84-4ef7-a41f-00545a86934f.png)
+  
   - Run the tests `rake spec` to check how many tests are passed 
+  
   ![image](https://user-images.githubusercontent.com/97250268/196709208-0beec4d6-d9a8-45b3-a487-51d52f670311.png)
+  
 **Steps to install on Virtual machine**
+
 ![image](https://user-images.githubusercontent.com/97250268/196710083-f4c7be8d-394b-4a70-a873-59b1b7a9c953.png)
 
 ![image](https://user-images.githubusercontent.com/97250268/196710191-8d98a711-7bd4-4045-9216-4607c1b27209.png)
@@ -132,6 +140,15 @@
 ![image](https://user-images.githubusercontent.com/97250268/196710803-236facc1-b1f6-4b0b-9e30-0ec5057c34af.png)
 
 ![image](https://user-images.githubusercontent.com/97250268/196711273-6d089642-1d8f-47cb-b2f1-d8ec613e01fb.png)
+
+### Automation Task:
+
+- Create provisional.sh in local host
+
+![image](https://user-images.githubusercontent.com/97250268/196756592-5fa6cb48-5ed5-46d4-950c-2b48568bfb07.png)
+
+
+
 
 
 
