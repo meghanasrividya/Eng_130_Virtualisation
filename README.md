@@ -60,7 +60,10 @@
 
 ### What is virtualisation and its benefits?
 - Virtualization is the process of running a virtual instance of a computer system in a layer separate from the actual hardware. It is often inefficient and costly for organizations to deploy multiple servers to keep pace with their storage and processing needs. Instead, virtualization provides the ability to create multiple simulated environments from a single, physical hardware system. This process is done through software called a hypervisor, which connects directly to your hardware and allows you to split that one system into completely separate, distinct and secure environments called virtual machines. The hypervisor provides the ability to separate the machine's resources — such as CPU, memory, storage and more — from the hardware and distribute them appropriately.
-- These virtual machines are self-contained and completely independent from each other. One common use is running applications meant for a different operating system on the virtualized system, so you don't have to switch computers or reboot. ** Benefits of virtualisation**: -From increasing the agility, flexibility and scalability of your business's IT to increasing the performance of your workforce to allow for the optimization of resources, virtualization has numerous benefits for your organization.
+- These virtual machines are self-contained and completely independent from each other. One common use is running applications meant for a different operating system on the virtualized system, so you don't have to switch computers or reboot.
+
+**Benefits of virtualisation**: From increasing the agility, flexibility and scalability of your business's IT to increasing the performance of your workforce to allow for the optimization of resources, virtualization has numerous benefits for your organization.
+
 *Additional benefits include*:
   - Reduced upfront hardware and continuing operating costs
   - Minimized or eliminated downtime
