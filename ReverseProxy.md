@@ -9,6 +9,6 @@
 - Go to the location where your app.js is there
 - `npm install`
 - `npm start`
--  App is now running without giving the port manually
+-  App is now running on the browser without giving the port manually
 
 ![image](https://user-images.githubusercontent.com/97250268/196743998-e4382313-8d38-433b-b186-c4d1ca166f8f.png)
