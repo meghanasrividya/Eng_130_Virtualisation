@@ -82,3 +82,28 @@
 ### Why should we all use all of them?
 - Using Vagrant, you can easily create virtual development environments from exiting VM images and have all the VM configs in a configuration file called Vagrantfile. To put it simply, you define everything you need in a VM in the Vagrantfile, and Vagrant will take care of configuring those in the VM.
 - Using VirtualBox and Vagrant, you can simulate the production environment of your app or website.
+
+
+### Automate the  process of installing/provisional nginx
+- bash scripting
+- file.sh
+![image](https://user-images.githubusercontent.com/97250268/196682897-842ea35e-6a5d-4c46-8f00-dd23846f2d38.png)
+
+- #!/bin/bash must be the first line in the file
+- change permissions to make this file exectuable
+### Synching the file from localhost to virtual machine
+- Add the below code to vagrant file which is highlighted
+
+![image](https://user-images.githubusercontent.com/97250268/196683745-f68c9b0d-5d26-4d92-aba8-cd68acb0aed1.png)
+
+- First parameter is the path of the folder in the local host
+- Second parameter is the path of folder where we need to store in Virtual machine
+- After saving the vagrant file reload the vagrant using the command `vagrant reload`
+- Login to the virtual machine using `vagrant ssh`
+- Once we are in Virtual machine give command `ls` to check the list of file.
+- We can see app folder inside the virtual machine
+
+![image](https://user-images.githubusercontent.com/97250268/196689415-dac1bc26-7497-4285-9bc7-506f325b9a42.png)
+
+
+  
