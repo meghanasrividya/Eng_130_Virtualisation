@@ -147,6 +147,18 @@
 
 ![image](https://user-images.githubusercontent.com/97250268/196756592-5fa6cb48-5ed5-46d4-950c-2b48568bfb07.png)
 
+![image](https://user-images.githubusercontent.com/97250268/196759909-bc2e60eb-3ba2-4bc4-bdb8-6ac202d3ead5.png)
+
+- Create vagrant file in local host
+
+![image](https://user-images.githubusercontent.com/97250268/196762847-80c3a160-314a-439d-960f-bccea4e894c1.png)
+
+- Then run the command `vagrant destroy` from the local host
+- Then run the command  `vagrant up` from the local host
+- Virtual Machine will be created with all the dependencies and you can web page from your browser on localhost.
+
+![image](https://user-images.githubusercontent.com/97250268/196764729-61db0609-62fd-4ae5-b8e9-56445bb1724e.png)
+
 
 
 
