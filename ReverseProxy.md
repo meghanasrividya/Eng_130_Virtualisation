@@ -6,6 +6,7 @@
 
 - change the local host to 3000 
 - save the file
+- To check the syntax is correct give the command`sudo nginx -t`
 - Go to the location where your app.js is there
 - `npm install`
 - `npm start`
