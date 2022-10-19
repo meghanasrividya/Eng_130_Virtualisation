@@ -86,7 +86,8 @@
 
 ### Automate the  process of installing/provisional nginx
 - bash scripting
-- file.sh
+- filename.sh
+
 ![image](https://user-images.githubusercontent.com/97250268/196682897-842ea35e-6a5d-4c46-8f00-dd23846f2d38.png)
 
 - #!/bin/bash must be the first line in the file
