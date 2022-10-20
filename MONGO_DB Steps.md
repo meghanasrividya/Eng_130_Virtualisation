@@ -32,7 +32,14 @@
 - ![image](https://user-images.githubusercontent.com/97250268/197034333-1348abba-3036-4240-8c5c-fac041e89800.png)
 - `printenv DB_HOST`
 - `npm start`
-- ![image](https://user-images.githubusercontent.com/97250268/197034685-ce4e4a83-f15e-4fd6-949b-60dec293f3ec.png)
+
+ ![image](https://user-images.githubusercontent.com/97250268/197034685-ce4e4a83-f15e-4fd6-949b-60dec293f3ec.png)
+
+### Now the app is running in `app virtual machine` and can communicate with ` db virtual machine`
+
+![image](https://user-images.githubusercontent.com/97250268/197035216-9d8da23f-c993-4cc0-9051-04b768c22b28.png)
+
+![image](https://user-images.githubusercontent.com/97250268/197035367-4c10cbad-f653-4e9c-830a-4ce32a31f21f.png)
 
 
 
