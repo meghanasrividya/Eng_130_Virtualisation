@@ -82,3 +82,88 @@
 ### Why should we all use all of them?
 - Using Vagrant, you can easily create virtual development environments from exiting VM images and have all the VM configs in a configuration file called Vagrantfile. To put it simply, you define everything you need in a VM in the Vagrantfile, and Vagrant will take care of configuring those in the VM.
 - Using VirtualBox and Vagrant, you can simulate the production environment of your app or website.
+
+
+### Automate the  process of installing/provisional nginx
+- bash scripting
+- filename.sh
+
+![image](https://user-images.githubusercontent.com/97250268/196682897-842ea35e-6a5d-4c46-8f00-dd23846f2d38.png)
+
+- #!/bin/bash must be the first line in the file
+- change permissions to make this file exectuable
+### Synching the file from localhost to virtual machine
+- Add the below code to vagrant file which is highlighted
+
+![image](https://user-images.githubusercontent.com/97250268/196683745-f68c9b0d-5d26-4d92-aba8-cd68acb0aed1.png)
+
+- First parameter is the path of the folder in the local host
+- Second parameter is the path of folder where we need to store in Virtual machine
+- After saving the vagrant file reload the vagrant using the command `vagrant reload`
+- Login to the virtual machine using `vagrant ssh`
+- Once we are in Virtual machine give command `ls` to check the list of file.
+- We can see app folder inside the virtual machine
+
+![image](https://user-images.githubusercontent.com/97250268/196689415-dac1bc26-7497-4285-9bc7-506f325b9a42.png)
+
+### Deployment Steps:
+- From the local host go inside the environment folder
+
+![image](https://user-images.githubusercontent.com/97250268/196707815-40c78046-6ef4-4ff2-8cd0-76fb06ee903a.png)
+
+- Go inside the spec-tests/ folder
+
+![image](https://user-images.githubusercontent.com/97250268/196708211-a3cf19c8-6ebd-4bfb-8750-55748ab19be0.png)
+
+- `gem install bundler`
+
+![image](https://user-images.githubusercontent.com/97250268/196708539-a2f56ee2-5f31-4814-9ecc-373a6aee5e37.png)
+
+- `bundle`
+
+  ![image](https://user-images.githubusercontent.com/97250268/196708876-442291eb-9a84-4ef7-a41f-00545a86934f.png)
+  
+  - Run the tests `rake spec` to check how many tests are passed 
+  
+  ![image](https://user-images.githubusercontent.com/97250268/196709208-0beec4d6-d9a8-45b3-a487-51d52f670311.png)
+  
+**Steps to install on Virtual machine**
+
+![image](https://user-images.githubusercontent.com/97250268/196710083-f4c7be8d-394b-4a70-a873-59b1b7a9c953.png)
+
+![image](https://user-images.githubusercontent.com/97250268/196710191-8d98a711-7bd4-4045-9216-4607c1b27209.png)
+
+![image](https://user-images.githubusercontent.com/97250268/196710414-11b3b675-6acb-42c4-bbae-bd7a2427b1ef.png)
+
+![image](https://user-images.githubusercontent.com/97250268/196710652-cbd94bb5-206e-40df-8722-6387917c062f.png)
+
+![image](https://user-images.githubusercontent.com/97250268/196710803-236facc1-b1f6-4b0b-9e30-0ec5057c34af.png)
+
+![image](https://user-images.githubusercontent.com/97250268/196711273-6d089642-1d8f-47cb-b2f1-d8ec613e01fb.png)
+
+### Automation Task:
+
+- Create provisional.sh in local host
+
+![image](https://user-images.githubusercontent.com/97250268/196756592-5fa6cb48-5ed5-46d4-950c-2b48568bfb07.png)
+
+![image](https://user-images.githubusercontent.com/97250268/196759909-bc2e60eb-3ba2-4bc4-bdb8-6ac202d3ead5.png)
+
+- Create vagrant file in local host
+
+![image](https://user-images.githubusercontent.com/97250268/196762847-80c3a160-314a-439d-960f-bccea4e894c1.png)
+
+- Then run the command `vagrant destroy` from the local host
+- Then run the command  `vagrant up` from the local host
+- Virtual Machine will be created with all the dependencies and you can web page from your browser on localhost.
+
+![image](https://user-images.githubusercontent.com/97250268/196764729-61db0609-62fd-4ae5-b8e9-56445bb1724e.png)
+
+
+
+
+
+
+
+  
+
