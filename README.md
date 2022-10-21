@@ -159,6 +159,24 @@
 
 ![image](https://user-images.githubusercontent.com/97250268/196764729-61db0609-62fd-4ae5-b8e9-56445bb1724e.png)
 
+- How to run node app in the backgroung `nohup node app.js > /dev/null 2>&1 &`
+- Restart - enable -`sudo nginx -t `
+- access nginx logs `/var/log/nginx`
+
+### Linux Env Var
+
+- syntax NAME = Meghana
+- How to check existing env var `env`
+- `export` to create env var
+
+
+step3: Ensure it's running 
+       - Change mongodb conf file to allow access to everyone
+step 4:restart mongodb then enable  check  status its running with new config ca
+
+export DB_HOST ="mongodb/192.168.33.150:27017/posts"
+
+-create an env var clled DB_HOST =mongodb://192.168.10.150:27017/psts
 
 
 

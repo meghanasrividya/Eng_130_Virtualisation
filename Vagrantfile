@@ -1,14 +1,30 @@
 
 Vagrant.configure("2") do |config|
 
- config.vm.box = "ubuntu/xenial64"
-# creating a virtual machine ubuntu 
+    config.vm.define "app" do |app|
 
- config.vm.network "private_network",ip:"192.168.10.100"
+    app.vm.box = "ubuntu/bionic64"
 
-# To sync folders between the localhost and vm
+      app.vm.network "private_network", ip: "192.168.10.100"
 
- config.vm.synced_folder  ".", "/home/vagrant/app"
- 
- config.vm.provision "shell", path: "provision.sh"
+      app.vm.synced_folder ".", "/home/vagrant/app" # change it to your home location 
+
+      app.vm.provision "shell", path: "provision.sh" , run: "always"
+
+                                     # provide path for your provision.sh 
+
+    end
+
+  
+
+    config.vm.define "db" do |db|
+
+      db.vm.box = "ubuntu/bionic64"
+
+      db.vm.network "private_network", ip: "192.168.10.150"
+
+      
+
+    
+    end
 end
